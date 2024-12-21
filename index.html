@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiera e Stand </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .button-container {
+            display: flex;
+            gap: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Seleziona l'operazione CRUD</h1>
+    
+    <div class="button-container">
+        <a href="fiera/indexfiera.php" class="button" id="crudFiera">CRUD Fiera</a>
+        <a href="stand/indexstand.php" class="button" id="crudStand">CRUD Stand</a>
+    </div>
+
+</body>
+</html>
